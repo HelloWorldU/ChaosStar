@@ -84,7 +84,7 @@ ChaosStar/
    docker-compose up --build
    ```
 3. Browse：  
-   - Frontend(Prod)：http://localhost:5173  
+   - Frontend(Prod)：http://localhost:80 
    - Backend API：    http://localhost:8000  
 
 ### Development Mode
