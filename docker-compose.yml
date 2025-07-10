@@ -1,0 +1,38 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+    container_name: chaosstar-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./web/backend:/app
+    env_file:
+      - .env
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend.Dockerfile
+    container_name: chaosstar-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+  frontend-dev:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.dev.frontend
+    container_name: chaosstar-frontend-dev
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./web/frontend:/app
+      - ./web/shared:/app/shared
+      - /app/node_modules
+    environment:
+      - VITE_API_BASE_URL=http://backend:8000
+    depends_on:
+      - backend

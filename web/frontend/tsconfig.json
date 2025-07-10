@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react-jsx",                // ← 关键：启用 React 17+ JSX 转换
+    "moduleResolution": "node",        // ← 关键：正确走 Node 风格的模块查找
+    "esModuleInterop": true,           // 支持 default-import 兼容多数 CJS 库
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["../shared/*"]
+    },
+
+    "types": [
+      "vite/client",
+      "node"        // 继续保留 node 全局类型
+    ]
+  },
+  "include": [
+    "src",
+    "../shared"
+  ]
+}

@@ -1,0 +1,23 @@
+[llm.regular]
+model = "claude-3-5-haiku-20241022"
+base_url = "https://api.anthropic.com"
+api_key = "Your API key"
+max_tokens = 8192
+temperature = 1.0
+api_type = "Anthropic"
+proxy = "Your proxy"
+
+
+[llm.streaming]
+model = "claude-sonnet-4-20250514"
+base_url = "https://api.anthropic.com"
+api_key = "Your API key"
+max_tokens = 8192
+temperature = 1.0
+api_type = "Anthropic"
+proxy = "Your proxy"
+thinking = 1024
+
+
+[broswer.proxy]
+server = "Your proxy"
