@@ -107,7 +107,7 @@ Drop in new tools (e.g. web scrapers, calculators, custom APIs) under `app/tools
 
 ## 🤝 Contributing
 
-Contributions welcome! Please read our contributing guidelines before submitting PRs.
+Contributions welcome!
 
 ## 📄 License
 
