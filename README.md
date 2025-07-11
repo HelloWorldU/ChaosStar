@@ -107,7 +107,14 @@ Drop in new tools (e.g. web scrapers, calculators, custom APIs) under `app/tools
 
 ## 🤝 Contributing
 
-Contributions welcome!
+This is a personal project, but PRs are welcome! Feel free to:
+
+- 🐛 Report bugs or suggest improvements
+- 🔧 Add new tools or features  
+- 📚 Improve documentation
+- 🎨 Enhance the UI/UX
+
+Please open an issue first for major changes to discuss the approach.
 
 ## 📄 License
 
