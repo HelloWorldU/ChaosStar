@@ -10,7 +10,7 @@ A lightweight agent framework designed for deep research and high-quality conten
 - **Optimized Transport**: Memory-based transmission mechanism reducing client-server overhead
 - **Extensible Design**: Framework supports expansion to multi-agent systems
 
-## 🎬 Demo Video
+## 🎬 Demo Picture
 
 ![ChaosStar Picture](./assets/demo.png)
 
