@@ -20,7 +20,7 @@ A lightweight agent framework designed for deep research and high-quality conten
 
 ### Backend
 - **Framework**: FastAPI
-- **Agent Pattern**: ReAct (Reasoning + Acting)
+- **Agent Pattern**: ReAct (Reasoning + Acting)--RESTful HTTP interface, Interleaved-Thinking(stream output)--Websocket interface
 - **Transport**: Custom memory-based transmission (or stdio)
 - **API Support**: OpenAI(not yet) & Anthropic interfaces
 
